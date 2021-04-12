@@ -58,5 +58,6 @@ We will be joining the product and orders dataset for this purpose, which would 
 ## Predictive analysis using Deep learning Neural network models.
 Understanding retail industry can be tricky and evolving hence we will be using Deep Neural Networks for this purpose as many of the relationships between inputs and outputs are non-linear as well as complex.
  
-
+# Group Communication Protocols
+The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project. 
 
