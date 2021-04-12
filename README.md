@@ -1,4 +1,4 @@
-# automatic-palm-tree
+# Instacart Analysis
 
 ## Introduction
 Instacart is an American Company that operates a grocery delivery and pick-up service in the United States and Canada. The service allows customers to order groceries from participating retailers with the shopping being done by a personal shopper.
