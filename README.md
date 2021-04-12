@@ -18,6 +18,7 @@ For this project we have chosen to use PostgreSQL to hold our database.
 
 We currently have five related tables in our database, but that is expected to change as we begin to work with and transform our data. The database contains tables holding information on store aisles, departments, products in an order, orders, and available products.
 
+
 # Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
 ## K-Means for Customer Segmentation –
@@ -36,6 +37,7 @@ We will be joining the product and orders dataset for this purpose, which would 
 ## Predictive analysis using Deep learning Neural network models.
 Understanding retail industry can be tricky and evolving hence we will be using Deep Neural Networks for this purpose as many of the relationships between inputs and outputs are non-linear as well as complex.
  
+
 
 
 <img src="preliminary_erd_image.PNG" width="400" height="240"/>
