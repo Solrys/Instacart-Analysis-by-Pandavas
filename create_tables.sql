@@ -21,17 +21,17 @@ CREATE TABLE order_products_prior (
 	add_to_cart_order INT,
 	reordered INT,
 	FOREIGN KEY (product_id) REFERENCES products (product_id),
-	PRIMARY KEY (order_id)
+	PRIMARY KEY (order_id, product_id)
 );
 	
 -- Create table for order_products_train
 CREATE TABLE order_products_train (
-	order_id INT,
-	product_id INT,
+	order_id INT NOT NULL,
+	product_id INT NOT NULL,
 	add_to_cart_order INT,
 	reordered INT,
 	FOREIGN KEY (product_id) REFERENCES products (product_id),
-	PRIMARY KEY (order_id)
+	PRIMARY KEY (order_id, product_id)
 );
 
 -- Create table for orders
@@ -61,11 +61,10 @@ CREATE TABLE products (
 
 -- Create table for customers
 CREATE TABLE customer_data (
-	id INT NOT NULL,
+	user_id INT NOT NULL,
 	gender VARCHAR NOT NULL,
-	age INT,
-	member_since DATE,
+	age FLOAT,
 	income INT,
-	num_of_orders INT,
-	PRIMARY KEY (id)
+	customer_score INT,
+	PRIMARY KEY (user_id)
 );
