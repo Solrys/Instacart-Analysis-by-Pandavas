@@ -35,7 +35,7 @@ For this project we have chosen to use PostgreSQL to hold our database.
 We currently have five related tables in our database, but that is expected to change as we begin to work with and transform our data. The database contains tables holding information on store aisles, departments, products in an order, orders, and available products.
 
 
-<img src="preliminary_erd_image.PNG" width="400" height="240"/>
+<img src="erd_diagram_v2.PNG" width="400" height="240"/>
 
 
 ** Since the creation of the above ERD, the project has gained an additional dataset for customer segmentation - 'Customers.csv'. The dataset is already featured within the machine learning notebook and a new ERD will be updated in the next segment. 
