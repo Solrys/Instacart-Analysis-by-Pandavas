@@ -18,6 +18,10 @@ For this project we have chosen to use PostgreSQL to hold our database.
 
 We currently have five related tables in our database, but that is expected to change as we begin to work with and transform our data. The database contains tables holding information on store aisles, departments, products in an order, orders, and available products.
 
+- ER Diagram -
+
+<img src="preliminary_erd_image.PNG" width="400" height="240"/>
+
 
 # Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
@@ -50,8 +54,4 @@ Features:
 - **Target** = “reordered”
 We used pd.dummies for string  value features and scaled the dataset before training the model.
 We received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
-
-
-<img src="preliminary_erd_image.PNG" width="400" height="240"/>
-
 
