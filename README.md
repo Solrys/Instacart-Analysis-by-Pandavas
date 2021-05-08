@@ -61,5 +61,5 @@ Understanding retail industry can be tricky and evolving hence we will be using 
 # Group Communication Protocols
 The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project.
 
-# Presentation
+# Presentation 
 [Click Here to View Google Slide Presentation](https://docs.google.com/presentation/d/1Em1EJJ7RFDe6lQUdzrOOEO2_fN0sd_4-sNbsHl7Ewz4/edit#slide=id.g35f391192_00)
