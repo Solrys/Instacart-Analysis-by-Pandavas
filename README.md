@@ -32,8 +32,8 @@ We have almost 50k products in our dataset, studying them individually or even b
 
 -	Class 0 - never re-ordered.
 -	Class 1 - occasionally re-ordered.
--	Class 2 - often re-ordered or Popular.
--	Class 3 - frequently re-ordered or “In-High Demand”.
+-	Class 2 - often re-ordered or **Popular**.
+-	Class 3 - frequently re-ordered or **“In-High Demand”**.
 
 ## Predictive analysis using Deep learning Neural network models.
 Will this product stocked be ever re-ordered? Often, stores carry products that are not as frequently bought as other daily used products such as milk, fruits, etc. Predicting the likelihood if a particular product will be re-ordered is necessary for stores for inventory management. This will also be helpful in decision making for the introduction of new products. Machine learning algorithms such as deep learning neural networks can be employed for this purpose since our data is complex and enormous in size.
@@ -47,7 +47,7 @@ Features:
 -	total number of orders for the product (num_of_orders)
 -	product department (department)
 -	product aisle (aisle)
-Target = “reordered”
+- **Target** = “reordered”
 We used pd.dummies for string  value features and scaled the dataset before training the model.
 We received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
 
