@@ -16,7 +16,9 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 
 ### Market Basket Analysis:
 
-•	Introduce new products in the market similar to the top selling products <br>
+•	Introduce new products in the market similar to the top selling products by department <br>
+. Highlight the most popular vs least popular aisles across the store
+. Plot order count vs reorder count by product
 •	To boost sales by providing discounts on products that are frequently purchased<br>
 •	To identify which products are least ordered or never re-ordered. With this analysis, the company would be able to reduce overhead costs incurred by carrying items that are less likely to be purchased<br>
 •	Segment customers on their purchase frequency and recommend loyalty programs to each group of customers to increase sales.<br>
@@ -43,7 +45,6 @@ Six additional tables have been created to analyze the data. A table named custo
 
 <img src="preliminary_erd_image.PNG" width="400" height="240"/>
 
-
 # Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
 ## K-Means for Customer Segmentation –
@@ -65,5 +66,3 @@ Understanding retail industry can be tricky and evolving hence we will be using 
  
 # Group Communication Protocols
 The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project. 
-
-
