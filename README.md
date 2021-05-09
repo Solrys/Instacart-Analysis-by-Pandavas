@@ -54,11 +54,6 @@ We have increased to six related tables containing data on aisles, departments, 
 
 Six additional tables have been created to analyze the data. A table named customer_score_counts containing the number of customers in each customer score from 4 to 100. Tables containg the number of orders for each department, number of orders by gender, and number of orders and reorders by product have also been created. A table named user_reorder_counts has also been created.  This table bins users into ranges of 1-18 reorders, 18-35, 36-53, and 54-70 reorders and counts the number of users in each range to determine most users are in the lower ranges. 
 
-- ER Diagram -
-
-<img src="preliminary_erd_image.PNG" width="400" height="240"/>
-
-
 # Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
 ## K-Means for Customer Segmentation –
@@ -68,14 +63,28 @@ Our customers and Orders dataset would be merged for this analysis to group the 
 * Income
 * Customer_score
 ## K-Means for Product Segmentation –
-We will be joining the product and orders dataset for this purpose, which would include characteristics such as-
-* product_id
-* dept_id
-* aisle_id
-* add_to_card_order
-*  reordered_status
+We combined the products dataset with the prior orders dataset to get metrics such as **num_of_orders** and **num_of_reorders** per product. Also using product characteristics such as its department and the aisle it belongs to, we used K-Means algorithm to cluster the products into 4 main clusters –
+-	Class 0 - never re-ordered.
+-	Class 1 - occasionally re-ordered.
+-	Class 2 - often re-ordered or **Popular**.
+-	Class 3 - frequently re-ordered or **“In-High Demand”**.
+
 ## Predictive analysis using Deep learning Neural network models.
-Understanding retail industry can be tricky and evolving hence we will be using Deep Neural Networks for this purpose as many of the relationships between inputs and outputs are non-linear as well as complex.
+We used the prior orders dataset and joined with products, departments, and aisles to build our combined dataset used to train the Neural Network model.
+Features:
+-	order day of week (order_dow)
+-	order hour of day (order_hour_of_day)
+-	days since product was bought since prior order (days_since_prior_order)
+-	order in which product was added to the cart (add_to_cart_order)
+-	total number of re-orders for the product (num_of_reorders)
+-	total number of orders for the product (num_of_orders)
+-	product department (department)
+-	product aisle (aisle)
+- Target = **“reordered”**
+We used pd.dummies for string  value features and scaled the dataset before training the model.
+We received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
+
+
  
 # Group Communication Protocols
 
@@ -83,5 +92,5 @@ The group members will remain in consistent contact through the Slack app and wi
 
 # Presentation 
 [Click Here to View Google Slide Presentation](https://docs.google.com/presentation/d/1Em1EJJ7RFDe6lQUdzrOOEO2_fN0sd_4-sNbsHl7Ewz4/edit#slide=id.g35f391192_00)
-=======
+
 
