@@ -36,7 +36,7 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 ## Database
 
 For this project we created and AWS RDS instance connected to pgAdmin to store our database.  By using AWS we were able to ease the process of sharing the database amongst team members.
-
+  
 The data used for our project resulted in six related tables. The tables contain information on store aisles, departments, products in an order, orders, available products, and customers.
 
 <img src="erd_diagram_v2.PNG" width="400" height="240"/>
