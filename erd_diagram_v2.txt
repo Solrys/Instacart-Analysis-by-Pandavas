@@ -1,0 +1,42 @@
+aisles
+-
+aisle_id PK int
+aisle string
+
+departments
+-
+department_id PK int
+department string
+
+order_products_train
+-
+order_id PK int
+product_id int FK -< products.product_id
+add_to_cart_order int
+reorder int
+
+orders
+-
+order_id PK int FK >-< order_products_train.order_id
+user_id PK int
+eval_set str
+order_number int
+order_dow int
+order_hour_of_day int
+days_since_prior_order int
+
+products
+-
+product_id PK int
+product_name str
+aisle_id int FK - aisles.aisle_id
+department_id int FK >- departments.department_id
+
+
+Customers
+-
+user_id PK int FK - orders.user_id
+gender str
+age int
+income int
+customer_score
