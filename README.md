@@ -1,7 +1,7 @@
 # Instacart Analysis
 
 
-## Introduction
+## Introduction:
 Instacart is an American Company that operates a grocery delivery and pick-up service in the United States and Canada. The service allows customers to order groceries from participating retailers with the shopping being done by a personal shopper.
 
 During the COVID-19 lockdown, Instacart became an essential service for millions of Americans trapped at home. Even as early as February, Instacart started noticing unusual demand for items such as toilet paper, canned vegetables and long-life milk. 
@@ -13,7 +13,7 @@ Instacart reportedly generated $1.5 billion revenue in 2020, with $35 billion wo
 The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
 
 
-### Objective
+## Objective:
 The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
 
 ### Market Basket Analysis:
