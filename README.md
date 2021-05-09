@@ -12,6 +12,10 @@ Instacart reportedly generated $1.5 billion revenue in 2020, with $35 billion wo
 
 The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
 
+
+### Objective
+The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
+
 ### Market Basket Analysis:
 
 -	Introduce new products in the market similar to the top selling products
@@ -23,8 +27,6 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 - Segment customers on their purchase frequency and recommend loyalty programs to each group of customers to increase sales.
 - Which time of the day is the busiest for a particular product? A good understanding of this could help with the restocking time for the particular product.
 
-### Objective
-The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
 
 ### Customer Segmentation:
 *  What is the distribution of annual Income by age?
