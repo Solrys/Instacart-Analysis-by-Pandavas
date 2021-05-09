@@ -16,15 +16,14 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 
 ### Market Basket Analysis:
 
-
-•	Introduce new products in the market similar to the top selling products <br>
-•	Introduce new products in the market similar to the top selling products by department <br>
-. Highlight the most popular vs least popular aisles across the store
-. Plot order count vs reorder count by product
-•	To boost sales by providing discounts on products that are frequently purchased<br>
-•	To identify which products are least ordered or never re-ordered. With this analysis, the company would be able to reduce overhead costs incurred by carrying items that are less likely to be purchased<br>
-•	Segment customers on their purchase frequency and recommend loyalty programs to each group of customers to increase sales.<br>
-•	Which time of the day is the busiest for a particular product? A good understanding of this could help with the restocking time for the particular product<br>
+-	Introduce new products in the market similar to the top selling products
+- Introduce new products in the market similar to the top selling products by department
+- Highlight the most popular vs least popular aisles across the store
+- Plot order count vs reorder count by product
+- To boost sales by providing discounts on products that are frequently purchased<br>
+- To identify which products are least ordered or never re-ordered. With this analysis, the company would be able to reduce overhead costs incurred by carrying items that are less likely to be purchased
+- Segment customers on their purchase frequency and recommend loyalty programs to each group of customers to increase sales.
+- Which time of the day is the busiest for a particular product? A good understanding of this could help with the restocking time for the particular product.
 
 ### Customer Segmentation:
 *  What is the distribution of annual Income by age?
@@ -54,22 +53,21 @@ We have increased to six related tables containing data on aisles, departments, 
 
 Six additional tables have been created to analyze the data. A table named customer_score_counts containing the number of customers in each customer score from 4 to 100. Tables containg the number of orders for each department, number of orders by gender, and number of orders and reorders by product have also been created. A table named user_reorder_counts has also been created.  This table bins users into ranges of 1-18 reorders, 18-35, 36-53, and 54-70 reorders and counts the number of users in each range to determine most users are in the lower ranges. 
 
-# Machine Learning models
+## Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
-## K-Means for Customer Segmentation –
+### K-Means for Customer Segmentation –
 Our customers and Orders dataset would be merged for this analysis to group the customers into clusters based on characteristics of 
 * Gender
 * Age
 * Income
 * Customer_score
-## K-Means for Product Segmentation –
+### K-Means for Product Segmentation –
 We combined the products dataset with the prior orders dataset to get metrics such as **num_of_orders** and **num_of_reorders** per product. Also using product characteristics such as its department and the aisle it belongs to, we used K-Means algorithm to cluster the products into 4 main clusters –
 -	Class 0 - never re-ordered.
 -	Class 1 - occasionally re-ordered.
 -	Class 2 - often re-ordered or **Popular**.
 -	Class 3 - frequently re-ordered or **“In-High Demand”**.
-
-## Predictive analysis using Deep learning Neural network models.
+### Predictive analysis using Deep learning Neural network models.
 We used the prior orders dataset and joined with products, departments, and aisles to build our combined dataset used to train the Neural Network model.
 Features:
 -	order day of week (order_dow)
@@ -85,12 +83,11 @@ We used pd.dummies for string  value features and scaled the dataset before trai
 We received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
 
 
- 
-# Group Communication Protocols
+## Group Communication Protocols
 
 The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project.
 
-# Presentation 
+## Presentation 
 [Click Here to View Google Slide Presentation](https://docs.google.com/presentation/d/1Em1EJJ7RFDe6lQUdzrOOEO2_fN0sd_4-sNbsHl7Ewz4/edit#slide=id.g35f391192_00)
 
 
