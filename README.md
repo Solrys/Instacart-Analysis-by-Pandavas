@@ -82,6 +82,38 @@ Our customers and Orders dataset would be merged for this analysis to group the 
 * Age
 * Income
 * Customer_score
+
+### DBSCAN
+For our first Machine model study we used a dbscan algorithm  Or Density Based Clustering, . This algorithm groups clusters as areas of high density separated by areas of low density. Because dbscans aren’t limited to clustering in elliptical shapes around a centroid Our DBSAN was able to identify a number of clusters similar in behavior. These clusters could be useful if for creating more tailored promotion initiatives since these consumers are very close in their habits towards spending. 
+
+NOTE : Density = Number of points within a specified radius
+DBSCAN uses two different parameters:
+Epsilon: Determines a specified radius that if includes enough number of points within, we call it dense area.
+Minimum Samples: Determines the minimum number of data points we want in a neighborhood to define a cluster.)
+
+### The KNN model 
+We also created a  knn, or  k nearest neighbor model, relies on supervised data. We tried 3, 4, and 5 clusters. This combined the classification of the K nearest points.  It is supervised because you are trying to classify a point based on the known classification of other points. 
+
+### The KMeans model
+The KMEANS model proved most useful for our goal of creating clusters and then based on that segmentation we categorized these  clusters and ranked them based on their relationship to income and spending. 
+The clusters we found represented tho following labels:
+*  Careless
+*  Standard
+*  Target
+*  Careful
+
+Careless, (light pink Annual income are low but the spending is high.
+Standard, (light blue)The annual income and spending score both are in mid range.
+Target, (Dark Blue). Annual income and spending score are higher.
+Careful, (magenta) Annual income is high but spending is low. 
+
+Grouping our customers this way will help us determine how to target specific demographics and engage them through a variety of promotions. 
+
+### Hierarchical Dendograms
+Hierarchical dendograms are really useful because it shows all the possible linkages within a cluster. 
+
+We used an agglomerative algorithm way which started from the bottom up.  In other words it starts with all the various individual data samples, and then groups them into clusters based on the their similarities until you are left with one final cluster at the top. This model was great and because it illustrates the inner workings of the clustering and their relationship to each other. 
+
 ### K-Means for Product Segmentation –
 We combined the products dataset with the prior orders dataset to get metrics such as **num_of_orders** and **num_of_reorders** per product. Also using product characteristics such as its department and the aisle it belongs to, we used K-Means algorithm to cluster the products into 4 main clusters –
 -	Class 0 - never re-ordered.
