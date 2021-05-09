@@ -16,6 +16,8 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 
 ### Market Basket Analysis:
 
+
+•	Introduce new products in the market similar to the top selling products <br>
 •	Introduce new products in the market similar to the top selling products by department <br>
 . Highlight the most popular vs least popular aisles across the store
 . Plot order count vs reorder count by product
@@ -33,6 +35,17 @@ The dataset chosen for analysis comprises of about 3 million grocery orders plac
 
 
 ## Database
+
+For this project we have chosen to use PostgreSQL to hold our database.
+
+We currently have five related tables in our database, but that is expected to change as we begin to work with and transform our data. The database contains tables holding information on store aisles, departments, products in an order, orders, and available products.
+
+
+<img src="preliminary_erd_image.PNG" width="400" height="240"/>
+
+
+** Since the creation of the above ERD, the project has gained an additional dataset for customer segmentation - 'Customers.csv'. The dataset is already featured within the machine learning notebook and a new ERD will be updated in the next segment. 
+=======
 For this project we created and AWS RDS instance connected to pgAdmin to store our database.  By using AWS we were able to ease the process of sharing the database amongst team members.
 
 We have increased to six related tables containing data on aisles, departments, products in an order, orders, products, and customers.  
@@ -45,6 +58,7 @@ Six additional tables have been created to analyze the data. A table named custo
 
 <img src="preliminary_erd_image.PNG" width="400" height="240"/>
 
+
 # Machine Learning models
 For our project, we will be using Unsupervised learning algorithms like K-means for customer segmentation and product segmentation. For Predictive analytics, we will be using deep learning Neural Networks. 
 ## K-Means for Customer Segmentation –
@@ -54,7 +68,6 @@ Our customers and Orders dataset would be merged for this analysis to group the 
 * Income
 * Customer_score
 ## K-Means for Product Segmentation –
-
 We will be joining the product and orders dataset for this purpose, which would include characteristics such as-
 * product_id
 * dept_id
@@ -65,4 +78,10 @@ We will be joining the product and orders dataset for this purpose, which would 
 Understanding retail industry can be tricky and evolving hence we will be using Deep Neural Networks for this purpose as many of the relationships between inputs and outputs are non-linear as well as complex.
  
 # Group Communication Protocols
-The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project. 
+
+The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project.
+
+# Presentation 
+[Click Here to View Google Slide Presentation](https://docs.google.com/presentation/d/1Em1EJJ7RFDe6lQUdzrOOEO2_fN0sd_4-sNbsHl7Ewz4/edit#slide=id.g35f391192_00)
+=======
+
