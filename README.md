@@ -44,8 +44,8 @@ We currently have five related tables in our database, but that is expected to c
 <img src="preliminary_erd_image.PNG" width="400" height="240"/>
 
 
-** Since the creation of the above ERD, the project has gained an additional dataset for customer segmentation - 'Customers.csv'. The dataset is already featured within the machine learning notebook and a new ERD will be updated in the next segment. 
-=======
+Since the creation of the above ERD, the project has gained an additional dataset for customer segmentation - 'Customers.csv'. The dataset is already featured within the machine learning notebook and a new ERD will be updated in the next segment. 
+
 For this project we created and AWS RDS instance connected to pgAdmin to store our database.  By using AWS we were able to ease the process of sharing the database amongst team members.
 
 We have increased to six related tables containing data on aisles, departments, products in an order, orders, products, and customers.  
