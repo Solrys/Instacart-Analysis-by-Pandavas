@@ -106,7 +106,23 @@ We received an accuracy of ~70.5% using multiple attempts, by altering the numbe
 
 ### Customer Analysis
 
+#### Analysis by Customer Age
+![Analysis by Customer Age](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Customer%20Analysis%20by%20Age.PNG)
 
+#### Analysis by Gender
+![Analysis by Gender](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Customer%20Analysis%20by%20Gender.PNG)
+
+#### Analysis by Income
+![Analysis by Income](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Customer%20Analysis%20by%20Income.PNG)
+
+#### Orders by Age
+![Orders by Age](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Orders%20Analysis%20by%20Age.PNG)
+
+#### Orders by Age and Gender
+![Orders by Age and Gender](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Orders%20by%20Age%20and%20Gender.PNG)
+
+#### Spending Trends by Gender and Income
+![Spending Trends](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Spening%20trends%20by%20Gender%20and%20Income.PNG)
 
 ## Group Communication Protocols
 
