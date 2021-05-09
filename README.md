@@ -3,7 +3,7 @@ A collaboration
 
 For this project we created and AWS RDS instance connected to pgAdmin to store our database.  By using AWS we were able to ease the process of sharing the database amongst team members.
 
-We currently have five related tables in our database, but that is expected to change as we begin to work with and transform our data. The database contains tables holding information on store aisles, departments, products in an order, orders, and available products.
+The data used for our project resulted in six related tables.  The tables contain information on store aisles, departments, products in an order, orders, available products, and customers.  
 
 We have increased to six related tables containing data on aisles, departments, products in an order, orders, products, and customers.  
 
