@@ -87,19 +87,24 @@ We received an accuracy of ~70.5% using multiple attempts, by altering the numbe
 ### Product Analysis:
 
 #### Top N Products by Department
-![Top N Products by Department](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Top%20N%20Products%20by%20Department.PNG)
+![Top N Products by Department](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Top%20N%20Products%20by%20Department.PNG) <br>
+##### Results : Orders from the Produce Department exceeded the orders from other departments significantly
 
 #### %Products Never Ordered by Aisle
-![%Products Never Ordered by Aisle](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/%25%20Products%20Never%20Ordered%20by%20Aisle.PNG)
+![%Products Never Ordered by Aisle](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/%25%20Products%20Never%20Ordered%20by%20Aisle.PNG)<br>
+##### Results : The top 2 aisles that had over 40% of its products never ordered were Beauty and Baby Accessories
 
 #### Least Re-ordered Products
-![Least Re-ordered Products](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Least%20Re-ordered%20Products.PNG)
+![Least Re-ordered Products](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Least%20Re-ordered%20Products.PNG)<br>
+##### Results : Top 5 products that were least reordered were Corn Starch,Paprika,Bay Leaves,Cayenne Pepper and Ground Ginger. These products need to be re-evaluated to understand the reason behind these not being re-ordered
 
 #### Market Basket Analysis
-![Market Basket Analysis](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Market%20Basket%20Analysis.PNG)
+![Market Basket Analysis](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Market%20Basket%20Analysis.PNG)<br>
+##### Results: the top 3 items bought together include Organic Hass Avocado and Bag of Organic Bananas, Organic Strawberries and Bag of Organic Bananas and Organic Baby Spinach and Bananas.
 
 #### Order Volumes based on DOW and Time
-![Order Volumes based on DOW and Time](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Order%20Volumes%20based%20on%20DOW%20and%20Time.PNG)
+![Order Volumes based on DOW and Time](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Order%20Volumes%20based%20on%20DOW%20and%20Time.PNG)<br>
+##### Results: Saturday and Sunday were the days with the highest number of orders with peak order time between 12 to 2 PM on Saturdays and 9 to 11 AM on Sundays.
 
 #### Products Ordered together
 ![Products Ordered together](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/Surekha/Tableau%20Images/Products/Products%20Ordered%20together.PNG)
@@ -116,13 +121,15 @@ We received an accuracy of ~70.5% using multiple attempts, by altering the numbe
 ![Analysis by Income](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Customer%20Analysis%20by%20Income.PNG)
 
 #### Orders by Age
-![Orders by Age](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Orders%20Analysis%20by%20Age.PNG)
+![Orders by Age](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Orders%20Analysis%20by%20Age.PNG)<br>
+##### Results: Biggest users of Instacart were people in the age group of 55-70. These people seemed to shop the most on Saturdays followed by Sundays.Close second were people of the age group 40-55.
 
 #### Orders by Age and Gender
 ![Orders by Age and Gender](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Orders%20by%20Age%20and%20Gender.PNG)
 
 #### Spending Trends by Gender and Income
-![Spending Trends](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Spening%20trends%20by%20Gender%20and%20Income.PNG)
+![Spending Trends](https://github.com/acorrales650/Instacart-Analysis-by-Pandavas/blob/main/Tableau%20Images/Customer/Spening%20trends%20by%20Gender%20and%20Income.PNG)<br>
+##### Results: Highest spenders per our analysis was the age group of 60-75K for both Female and Male customers
 
 ## Group Communication Protocols
 
