@@ -38,30 +38,6 @@ Analysts expect sustained growth in this field as new Instacart users have disco
 
 Instacart reportedly generated $1.5 billion revenue in 2020, with $35 billion worth of sales. During the coronavirus pandemic, Instacart hit its first profitable month, netting $10 million. Instacart has an estimated 9.6 million active users and over 500,000 shoppers who pick up the items. In March 2021, Instacart was valued at $39 billion
 
-
-## Objective
-
-The dataset chosen for analysis comprises of about 3 million grocery orders placed by around 200,000 customers. The goal is to predict purchasing patterns among these customers as well as gain insight on customer segmentation.
-
-### Market Basket Analysis:
-
--	Introduce new products in the market similar to the top selling products
-- Introduce new products in the market similar to the top selling products by department
-- Highlight the most popular vs least popular aisles across the store
-- Plot order count vs reorder count by product
-- To boost sales by providing discounts on products that are frequently purchased<br>
-- To identify which products are least ordered or never re-ordered. With this analysis, the company would be able to reduce overhead costs incurred by carrying items that are less likely to be purchased
-- Segment customers on their purchase frequency and recommend loyalty programs to each group of customers to increase sales.
-- Which time of the day is the busiest for a particular product? A good understanding of this could help with the restocking time for the particular product.
-
-### Customer Segmentation:
-*  What is the distribution of annual Income by age?
-*  What is the distribution of gender for Instacart users?
-*  What is the age group of most frequent Instacart users
-*  What is the overall distribution of income level for instacart users?
-*  How do male and female spending scores differ? 
-
-
 ## Database
 
 For this project we created and AWS RDS instance connected to pgAdmin to store our database.  By using AWS we were able to ease the process of sharing the database amongst team members.
