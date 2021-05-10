@@ -107,6 +107,8 @@ We used the prior orders dataset and joined with products, departments, and aisl
 - We used pd.dummies for string  value features and scaled the dataset before training the model and received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
 
 ## Tableau Images
+https://public.tableau.com/profile/surekha.chandramouli#!/vizhome/CustomerAnalytics_16199143141850/CustomerDataAnalysis
+https://public.tableau.com/profile/surekha.chandramouli#!/vizhome/InstagramProductAnalysis/ProductAnalysis
 
 ### Product Analysis:
 
