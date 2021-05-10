@@ -94,18 +94,17 @@ We combined the products dataset with the prior orders dataset to get metrics su
 -	Class 3 - frequently re-ordered or **“In-High Demand”**.
 ### Predictive analysis using Deep learning Neural network models.
 We used the prior orders dataset and joined with products, departments, and aisles to build our combined dataset used to train the Neural Network model.
-Features:
--	order day of week (order_dow)
--	order hour of day (order_hour_of_day)
--	days since product was bought since prior order (days_since_prior_order)
--	order in which product was added to the cart (add_to_cart_order)
--	total number of re-orders for the product (num_of_reorders)
--	total number of orders for the product (num_of_orders)
--	product department (department)
--	product aisle (aisle)
+- Features:
+  -	order day of week (order_dow)
+  -	order hour of day (order_hour_of_day)
+  -	days since product was bought since prior order (days_since_prior_order)
+  -	order in which product was added to the cart (add_to_cart_order)
+  -	total number of re-orders for the product (num_of_reorders)
+  -	total number of orders for the product (num_of_orders)
+  -	product department (department)
+  -	product aisle (aisle)
 - Target = **“reordered”**
-We used pd.dummies for string  value features and scaled the dataset before training the model.
-We received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
+- We used pd.dummies for string  value features and scaled the dataset before training the model and received an accuracy of ~70.5% using multiple attempts, by altering the number of inputs, activation functions and the number of hidden layers and the number of epochs.
 
 ## Tableau Images
 
@@ -158,7 +157,7 @@ We received an accuracy of ~70.5% using multiple attempts, by altering the numbe
 
 ## Group Communication Protocols
 
-The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delgate tasks, and ensure the progress of the project.
+The group members will remain in consistent contact through the Slack app and will hold meetings via Zoom throughout the week to discuss arising challenges, delegate tasks, and ensure the progress of the project.
 
 ## Presentation 
 [Click Here to View Google Slide Presentation](https://docs.google.com/presentation/d/1Em1EJJ7RFDe6lQUdzrOOEO2_fN0sd_4-sNbsHl7Ewz4/edit#slide=id.g35f391192_00)
